@@ -1,16 +1,23 @@
 <!DOCTYPE html>
+<html>
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="file:///D:/Github/does-this-query-suspicious/templates/assets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
 </head>
 <body>
-    <form id="formoid" method="post" action="/">
-        <input type="text" id="query" name="query" placeholder="SQL Query">
-        <button id="submit" type="submit" form="formoid" value="Submit">submit</button>
+  <div class="container">
+    <h1>';--Does this query sus?</h1>
+    <div class="nice-wrap">
+      <form id="formoid" method="post" action="/">
+        <input class="nice-textbox" type="text" id="query" name="query" placeholder="SQL Query">  
       </form>
-      <div id="result">
-        <p id="flag"></p>
+      <div class="btn-bg bg-1">
+        <div class="btn btn-1">
+          <button id="submit" type="submit" form="formoid" value="Submit">Submit</button>
+        </div>
       </div>
+    </div>
+  </div>
 </body>
-<tail>
-</tail>
 </html>
