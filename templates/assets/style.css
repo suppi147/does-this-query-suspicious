@@ -63,11 +63,11 @@ html, body {
 }
 
   body .btn-bg.bg-1 .btn-1 button {
-    color: #b2f3cf;
+    color: #ecefed;
     padding: 14px 32px;
     font-size: 16px;
     background: transparent;
-    border: 3px solid #b2f3cf;
+    border: 3px solid #eaeceb;
     border-radius: 5px;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -96,3 +96,12 @@ html, body {
     -webkit-transform: translate(5px, 5px);
     transform: translate(5px, 5px);
   }
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: left;
+  }
+ 
