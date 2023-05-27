@@ -7,7 +7,13 @@ def form_page():
     if request.method == 'POST':
         # Xử lý dữ liệu được gửi từ form
         query = request.form['query']
-        flag={'flag':'true'}
+        if(query=="hi"):
+            return render_template('/result/true.html')
+        
+        else:
+            return render_template('/result/false.html')
+        
+        
         # Thực hiện các xử lý khác...
     # Trang hiển thị form
     return render_template('/check/index.html')
