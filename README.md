@@ -6,8 +6,9 @@ does-this-query-suspicious is a online SQL query checking flatform.
 - with the help of **machine learning model** which was trained with **effective dataset** plus **CNN**, does-this-query-suspicious is able to detect SQL injection query easily.
 
 ## Technologies Used
-- FE: html, css, javascript(ajax)
-- ML: word2vec, CNN
+- FE: html, css
+- Backend: Python
+- ML:Word2vec, CNN
 - Deploy: flask
 ## Demo
 - form recieving + FE
