@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>";--Does this query safe?</h1>
+    <div class="nice-wrap">
+      <form id="formoid" method="post" action="/">
+        <input class="nice-textbox" type="text" id="query" name="query" placeholder="SQL Query">  
+      </form>
+      <div class="btn-bg bg-1">
+        <div class="btn btn-1">
+          <button id="submit" type="submit" form="formoid" value="Submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <p style="color:#eae7e7;" >Copyright by <a href="https://github.com/suppi147/" target="_blank" style="color:#eae7e7; text-decoration: none;">suppi147</a> | All right reserved</p>
+</footer>
+</html>
